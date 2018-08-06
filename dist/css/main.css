@@ -12,6 +12,14 @@ body {
     background: url(../images/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
+    body#bg-img .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(68, 68, 68, 0.9);
+      z-index: -1; }
 
 h1,
 h2,
