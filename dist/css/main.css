@@ -19,7 +19,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(68, 68, 68, 0.9);
+      background-color: rgba(68, 68, 68, 0.8);
       z-index: -1; }
 
 h1,
@@ -30,7 +30,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 4rem; }
+    font-size: 6rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
