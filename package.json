@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Ganesh Deshmukh's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshdeshmukh1612/portfolio.git"
+  },
+  "keywords": [
+    "Ganesh",
+    "Ashok",
+    "Deshmukh"
+  ],
+  "author": "Ganesh Deshmukh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshdeshmukh1612/portfolio/issues"
+  },
+  "homepage": "https://github.com/ganeshdeshmukh1612/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
