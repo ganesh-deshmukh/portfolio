@@ -69,5 +69,15 @@
     padding: 0;
     background: darken($color: $primary-color, $amount: 5);
     list-style: none;
+
+    // Give transform Effect to Navbar on clicking button
+    // first show navbar-background then, bounce nav-items to show effects
+
+    transform: translate3d(0, -100%, 0); //when(show==false)then push it up.
+    @include easeOut;
+    // it will not take effect, until show class is applied
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
   }
 }

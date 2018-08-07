@@ -41,7 +41,11 @@
     margin: 0;
     padding: 0;
     background: #373737;
-    list-style: none; }
+    list-style: none;
+    transform: translate3d(0, -100%, 0);
+    transition: all 0.5s ease-out; }
+    .menu-nav.show {
+      transform: translate3d(0, 0, 0); }
 
 * {
   box-sizing: border-box; }
