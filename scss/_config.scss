@@ -29,6 +29,15 @@ $background-opacity: 0.8;
   }
 }
 
+// Set Text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 //Set media querries in config.scss
 
 @mixin mediaSm {

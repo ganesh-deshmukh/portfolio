@@ -148,7 +148,6 @@ div.menu-branding.show {
     background: url("../images/portrait-small.jpg");
     width: 150px;
     height: 150px;
-    padding: 50px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -191,7 +190,6 @@ div.menu-branding.show {
     background: url("../images/portrait-small.jpg");
     width: 150px;
     height: 150px;
-    padding: 50px;
   }
 }
 @media screen and (max-width: 500px) {
