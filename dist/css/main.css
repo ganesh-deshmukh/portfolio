@@ -286,35 +286,35 @@ main#home h1 {
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 }
-
-.bio-image {
+.about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
   border: #eece1a 3px solid;
 }
-
-.bio {
+.about-info .bio {
   grid-area: bio;
   font-size: 1.5rem;
 }
-
-.job-1 {
+.about-info .job-1 {
   grid-area: job1;
 }
-
-.job-2 {
+.about-info .job-2 {
   grid-area: job2;
 }
-
-.job-3 {
+.about-info .job-3 {
   grid-area: job3;
 }
-
-.job {
+.about-info .job {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a solid 5px;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b2b2b;
 }
 
 /*# sourceMappingURL=main.css.map */
