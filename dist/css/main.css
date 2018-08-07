@@ -37,6 +37,10 @@
     width: 50%;
     height: 100vh;
     overflow: hidden; }
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: #373737; }
 
 * {
   box-sizing: border-box; }

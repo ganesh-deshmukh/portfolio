@@ -62,4 +62,11 @@
     height: 100vh;
     overflow: hidden;
   }
+
+  // Navbar
+  &-nav {
+    margin: 0;
+    padding: 0;
+    background: darken($color: $primary-color, $amount: 5);
+  }
 }
