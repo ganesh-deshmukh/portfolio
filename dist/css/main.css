@@ -271,6 +271,11 @@ div.menu-branding.show {
     width: 150px;
     height: 150px;
   }
+
+  .about-info {
+    grid-template-areas: "bioimage" "bio" "bio" "job1" "job2" "job3";
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 500px) {
   main#home h1 {
