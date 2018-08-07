@@ -123,6 +123,10 @@
     color: #fff;
     text-decoration: none;
     @include easeOut;
+
+    &:hover {
+      color: $secondary-color;
+    }
   }
 }
 // set delay for nav-items
