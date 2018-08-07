@@ -1,7 +1,5 @@
 @import "config";
 @import "menu";
-@import "mobile";
-@import "_mobile.scss";
 
 * {
   box-sizing: border-box;
@@ -121,3 +119,4 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
+@import "mobile";
