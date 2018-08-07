@@ -72,9 +72,9 @@
 
     // Give transform Effect to Navbar on clicking button
     // first show navbar-background then, bounce nav-items to show effects
-
     transform: translate3d(0, -100%, 0); //when(show==false)then push it up.
     @include easeOut;
+
     // it will not take effect, until show class is applied
     &.show {
       transform: translate3d(0, 0, 0);
@@ -84,12 +84,21 @@
   // Branding in menu-branding
   &-branding {
     background: $primary-color;
-    transform: translate3s(0, 100, 0);
+    transform: translate3d(0, 100%, 0);
     @include easeOut;
 
     // to give slide-in from bottom effect
-    &-show {
+    &.show {
+      // Slide in from bottom
       transform: translate3d(0, 0, 0);
+    }
+    .portrait {
+      width: 250px;
+      height: 250px;
+      margin-top: -110px;
+      background: url("../images/portrait.jpg");
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
     }
   }
 }
