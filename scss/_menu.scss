@@ -80,4 +80,16 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
+  // Branding in menu-branding
+  &-branding {
+    background: $primary-color;
+    transform: translate3s(0, 100, 0);
+    @include easeOut;
+
+    // to give slide-in from bottom effect
+    &-show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
 }
