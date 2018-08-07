@@ -39,7 +39,6 @@
     overflow: hidden; }
   .menu-nav {
     margin: 0;
-    padding: 0;
     background: #373737;
     list-style: none;
     transform: translate3d(0, -100%, 0);
@@ -59,6 +58,23 @@
       background: url("../images/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
+  .menu .nav-item {
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-out; }
+    .menu .nav-item.show {
+      transform: translate3d(0, 0, 0); }
+
+.nav-item:nth-child(1) {
+  transition-delay: 0.15s; }
+
+.nav-item:nth-child(2) {
+  transition-delay: 0.3s; }
+
+.nav-item:nth-child(3) {
+  transition-delay: 0.45s; }
+
+.nav-item:nth-child(4) {
+  transition-delay: 0.6s; }
 
 * {
   box-sizing: border-box; }
