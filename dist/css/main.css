@@ -261,7 +261,7 @@ header {
 
 main {
   padding: 3rem;
-  height: 100%;
+  min-height: calc(100vh - 60px);
 }
 main .icons {
   margin-top: 1rem;
@@ -315,6 +315,8 @@ main#home h1 {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
+  color: #fff;
+  height: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
