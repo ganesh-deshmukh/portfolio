@@ -1,40 +1,76 @@
 /*
-Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.
-        on line 73 of ./scss/_menu.css
+Error: Undefined mixin 'easeOut'.
+        on line 9 of ./scss/_menu.scss, in `easeOut'
+        from line 9 of ./scss/_menu.scss
 
-68: /var/lib/gems/2.5.0/gems/sass-3.5.7/bin/sass:13:in `<top (required)>'
-69: /usr/local/bin/sass:23:in `load'
-70: /usr/local/bin/sass:23:in `<main>'
-71: *\/
-72: body:before {
-73:   white-space: pre;
-74:   font-family: monospace;
-75:   content: "Error: Undefined mixin 'easeOut'.\A         on line 9 of ./scss/_menu.scss, in `easeOut'\A         from line 9 of ./scss/_menu.scss\A \A 4:   z-index: 3;\A 5:   right: 35px;\A 6:   top: 35px;\A 7:   cursor: pointer;\A 8: \A 9:   @include easeOut;\A 10: }\A 11: \A 12: .btn-line {\A 13:   width: 28px;\A 14:   height: 3px;"; }
+4:   z-index: 3;
+5:   right: 35px;
+6:   top: 35px;
+7:   cursor: pointer;
+8: 
+9:   @include easeOut;
+10: 
+11:   .btn-line {
+12:     width: 28px;
+13:     height: 3px;
+14:     margin: 0 0 5px 0;
 
 Backtrace:
-./scss/_menu.css:73
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:494:in `block in tabulate'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `each'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `each_with_index'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `tabulate'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:417:in `_to_tree'
+./scss/_menu.scss:9:in `easeOut'
+./scss/_menu.scss:9
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:98:in `block in with_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:98:in `with_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:389:in `_render_with_sourcemap'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/engine.rb:307:in `render_with_sourcemap'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `each'
 /var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:294:in `watch'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin.rb:109:in `method_missing'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/base.rb:50:in `parse'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/exec/base.rb:18:in `parse!'
-/var/lib/gems/2.5.0/gems/sass-3.5.7/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/var/lib/gems/2.5.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/var/lib/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 73 of ./scss/_menu.css\A \A 68: /var/lib/gems/2.5.0/gems/sass-3.5.7/bin/sass:13:in `<top (required)>'\A 69: /usr/local/bin/sass:23:in `load'\A 70: /usr/local/bin/sass:23:in `<main>'\A 71: */\A 72: body:before {\A 73:   white-space: pre;\A 74:   font-family: monospace;\A 75:   content: \"Error: Undefined mixin 'easeOut'.\A         on line 9 of ./scss/_menu.scss, in `easeOut'\A         from line 9 of ./scss/_menu.scss\A \A 4:   z-index: 3;\A 5:   right: 35px;\A 6:   top: 35px;\A 7:   cursor: pointer;\A 8: \A 9:   @include easeOut;\A 10: }\A 11: \A 12: .btn-line {\A 13:   width: 28px;\A 14:   height: 3px;\"; }"; }
+  content: "Error: Undefined mixin 'easeOut'.\A         on line 9 of ./scss/_menu.scss, in `easeOut'\A         from line 9 of ./scss/_menu.scss\A \A 4:   z-index: 3;\A 5:   right: 35px;\A 6:   top: 35px;\A 7:   cursor: pointer;\A 8: \A 9:   @include easeOut;\A 10: \A 11:   .btn-line {\A 12:     width: 28px;\A 13:     height: 3px;\A 14:     margin: 0 0 5px 0;"; }
