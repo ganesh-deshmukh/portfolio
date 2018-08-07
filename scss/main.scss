@@ -11,12 +11,10 @@ body {
   @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  height: 100%;
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
-  overflow: hidden;
 }
 
 // Headings
