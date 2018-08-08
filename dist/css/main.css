@@ -67,10 +67,12 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  margin-top: -110px;
+  margin-top: -200px;
+  opacity: 1;
+  color: transparent;
   background: url("../images/portrait.jpg");
   border-radius: 50%;
-  border: solid 3px #eece1a;
+  border: solid 5px #eece1a;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -316,6 +318,7 @@ div.menu-branding.show {
     background: url("../images/portrait-small.jpg");
     width: 150px;
     height: 150px;
+    margin-top: 0;
   }
 
   .about-info {
