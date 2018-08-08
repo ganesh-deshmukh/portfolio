@@ -48,6 +48,7 @@
 }
 .menu-nav {
   margin: 0;
+  padding: 0 0 0 0;
   background: #373737;
   list-style: none;
   transform: translate3d(0, -100%, 0);
@@ -70,8 +71,10 @@
   margin-top: -200px;
   opacity: 1;
   color: transparent;
-  background: url("../images/portrait.jpg");
+  background: url("../images/portrait.jpeg");
   border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: solid 5px #eece1a;
 }
 .menu .nav-item {
@@ -122,8 +125,8 @@
 body {
   background: #444;
   color: #fff;
+  height: 100%;
   margin: 0;
-  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
@@ -139,7 +142,7 @@ body#bg-img:after {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(68, 68, 68, 0.8);
+  background-color: rgba(68, 68, 68, 0.9);
   z-index: -1;
 }
 
@@ -157,7 +160,7 @@ h3.lg-heading {
 h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   padding: 0.2rem 1rem;
   background: rgba(73, 73, 73, 0.5);
 }
@@ -178,7 +181,7 @@ header {
 }
 
 main {
-  padding: 3rem;
+  padding: 4rem;
   min-height: calc(100vh - 60px);
 }
 main .icons {
@@ -195,7 +198,7 @@ main#home {
   overflow: hidden;
 }
 main#home h1 {
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 .about-info {
@@ -231,8 +234,8 @@ main#home h1 {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 .projects img {
   width: 100%;
@@ -244,24 +247,24 @@ main#home h1 {
   transition: all 0.5s ease-out;
 }
 
-.btn, .btn-light, .btn-dark {
+.btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
 }
-.btn:hover, .btn-light:hover, .btn-dark:hover {
+.btn:hover, .btn-dark:hover, .btn-light:hover {
   background: #eece1a;
   color: #000;
 }
 
-.btn-dark {
-  background: black;
-  color: #fff;
-}
-
 .btn-light {
   background: #c4c4c4;
+  color: #333;
+}
+
+.btn-dark {
+  background: black;
   color: #fff;
 }
 
@@ -331,8 +334,19 @@ div.menu-branding.show {
   }
 }
 @media screen and (max-width: 500px) {
-  main#home h1 {
-    margin-top: 10vh;
+  main {
+    padding: 2rem;
+  }
+  main #home h1 {
+    martin-top: 10vh;
+  }
+  main .lg-heading {
+    margin-top: 1rem;
+    font-size: 5rem;
+  }
+  main #home .icons,
+main #home .sm-heading {
+    background: #373737;
   }
 
   .projects {
