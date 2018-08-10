@@ -70,7 +70,6 @@
   height: 250px;
   margin-top: -200px;
   opacity: 1;
-  color: transparent;
   background: url("../images/portrait.jpeg");
   border-radius: 50%;
   background-size: contain;
@@ -321,6 +320,7 @@ div.menu-branding.show {
     background: url("../images/portrait-small.jpg");
     width: 150px;
     height: 150px;
+    opacity: 1;
     margin-top: 0;
   }
 
@@ -335,14 +335,15 @@ div.menu-branding.show {
 }
 @media screen and (max-width: 500px) {
   main {
-    padding: 2rem;
+    padding: 1rem;
   }
   main #home h1 {
     martin-top: 10vh;
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 3.3rem;
+    width: 90%;
   }
   main #home .icons,
 main #home .sm-heading {

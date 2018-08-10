@@ -49,6 +49,7 @@
       background: url("../images/portrait-small.jpg");
       width: 150px;
       height: 150px;
+      opacity: 1;
       margin-top: 0; // extra content and customized this ***************
     }
   }
@@ -73,14 +74,15 @@
 // for smaller screens like Smartphones
 @include mediaSm {
   main {
-    padding: 2rem;
+    padding: 1rem;
     #home h1 {
       martin-top: 10vh;
     }
 
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 3.3rem;
+      width: 90%;
     }
 
     // extra customization.
