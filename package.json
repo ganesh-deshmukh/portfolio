@@ -4,7 +4,8 @@
   "description": "Ganesh Deshmukh's Portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,9 @@
   "bugs": {
     "url": "https://github.com/ganeshdeshmukh1612/portfolio/issues"
   },
-  "homepage": "https://github.com/ganeshdeshmukh1612/portfolio#readme",
+  "homepage": "https://github.com/ganeshdeshmukh1612/portfolio",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.5.3"
   }
 }
