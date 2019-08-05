@@ -267,7 +267,7 @@ main {
   main {
     padding: 1rem; }
     main #home h1 {
-      martin-top: 10vh; }
+      margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
       font-size: 3.3rem;
