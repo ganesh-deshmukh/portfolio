@@ -161,21 +161,23 @@ main {
     main#home h1 {
       margin-top: 20vh; }
   main#about h1 {
-    margin-top: 0vh; }
+    margin-top: -2vh; }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bioimage bio bio";
   grid-template-columns: repeat(3, 1fr); }
-  .about-info .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    border: #eece1a 3px solid; }
-  .about-info .bio {
-    grid-area: bio;
-    font-size: 1.5rem; }
+
+.bio-image {
+  grid-area: bioimage;
+  margin: auto;
+  border-radius: 50%;
+  border: #eece1a 3px solid; }
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem; }
 
 .work-exp {
   display: grid;
@@ -274,7 +276,10 @@ main {
       opacity: 1;
       margin-top: 0; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "bio";
+    grid-template-columns: 1fr; }
+  .work-exp {
+    grid-template-areas: "job1" "job2" "job3" "job4";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }

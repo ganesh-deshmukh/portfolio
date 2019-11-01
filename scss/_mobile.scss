@@ -58,10 +58,16 @@
     grid-template-areas:
       "bioimage"
       "bio"
-      "bio"
+      "bio";
+
+    grid-template-columns: 1fr;
+  }
+  .work-exp {
+    grid-template-areas:
       "job1"
       "job2"
-      "job3";
+      "job3"
+      "job4";
 
     grid-template-columns: 1fr;
   }
