@@ -57,7 +57,7 @@
       height: 250px;
       margin-top: -200px;
       opacity: 1;
-      background: url("../images/portrait.jpeg");
+      background: url("../images/golden_gate_selfie.jpg");
       border-radius: 50%;
       background-size: contain;
       background-repeat: no-repeat;
@@ -182,7 +182,7 @@ main {
 .work-exp {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "job1 job2" "job3 job4";
+  grid-template-areas: "job1 job2" "job3 job4" "job5 job6";
   grid-template-columns: repeat(2, 1fr); }
   .work-exp .bio-image {
     grid-area: bioimage;
@@ -198,6 +198,12 @@ main {
     grid-area: job2; }
   .work-exp .job-3 {
     grid-area: job3; }
+  .work-exp .job-4 {
+    grid-area: job4; }
+  .work-exp .job-5 {
+    grid-area: job5; }
+  .work-exp .job-6 {
+    grid-area: job6; }
   .work-exp .job {
     background: #515151;
     padding: 0.5rem;
@@ -279,7 +285,7 @@ main {
     grid-template-areas: "bioimage" "bio" "bio";
     grid-template-columns: 1fr; }
   .work-exp {
-    grid-template-areas: "job1" "job2" "job3" "job4";
+    grid-template-areas: "job1" "job2" "job3" "job4" "job5" "job6";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
